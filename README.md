@@ -5,3 +5,4 @@ While there is an inordinate amount of wonderful content to be consumed on the i
 This is a curated list of such articles (soft limit 100):
 
 - [What is functional programming all about](http://www.lihaoyi.com/post/WhatsFunctionalProgrammingAllAbout.html), The core of Functional Programming is thinking about data-flow rather than control-flow
+- [Web design in 4 minutes](http://jgthms.com/web-design-in-4-minutes/), A very very basic css styling walkthrough!
