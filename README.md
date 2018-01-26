@@ -29,4 +29,5 @@ The following is snippets of useful information (condensed from articles similar
 
 - Wealth is not finite - creation of wealth is independent of the money supply. If you make a gift for someone using stones arranged in the shape of a heart, you have created something desirable and hence you are the more wealthier for it.
 - "A good scientist, in other words, does not merely ignore conventional wisdom, but makes a special effort to break it. Scientists go looking for trouble. This should be the m.o. of any scholar, but scientists seem much more willing to look under rocks." - Paul Graham
-
+- [The Log: What every software engineer should know about real-time data's unifying abstraction]
+(https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying), use a log infrastructure like Apache kafka for distributed data consistency - a bit enterprise heavy but some neat insights.
