@@ -1,0 +1,12 @@
+{
+  "name": "legendary",
+  "version": "1.0.0",
+  "description": "While there is an inordinate amount of wonderful content to be consumed on the internet (my addiction is HackerNews), every once in a while I get to read a legendary post that simply allows me to level up as a person.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Parmar",
+  "dependencies": {
+    "lorem-ipsum": "1.0.4"
+  }
+}
