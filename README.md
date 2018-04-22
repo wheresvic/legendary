@@ -26,17 +26,18 @@ This is a curated list of such articles (soft limit 100):
 - [Love your bugs](http://akaptur.com/blog/2017/11/12/love-your-bugs/), Some really interesting bugs and the attitude + mindset required for effective bugfixing.
 - [Why don’t software development methodologies work?](http://typicalprogrammer.com/why-dont-software-development-methodologies-work), Essentially, the secret to a team's success is a shared vision and effective communication. Methodologies are rather pointless if the previous does not hold true.
 - [Laws of UX](https://lawsofux.com/)
-  - The time to acquire a target is a function of the distance to and size of the target -- Paul Fitts. E.g. if a function needs to be accessed often and/or quickly, make the button big
-  - The time it takes to make a decision increases with the number and complexity of choices -- William Edmund Hick and Ray Hyman. E.g. only provide choices when a good default does not exist.
-  - Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know -- Jakob Nielsen. E.g. respect the platform’s conventions and interface guidelines.
-  - People will perceive and interpret ambiguous or complex images as the simplest form possible, because it is the interpretation that requires the least cognitive effort of us -- Law of Prägnanz. E.g. do not stuff too much detail into a small space.
-  - Objects that are near, or proximate to each other, tend to be grouped together -- Law of Proximity. E.g. put actions that do similar things together.
-  - The average person can only keep 7 (plus or minus 2) items in their working memory -- George Miller. E.g. reduce the number of things your users have to remember.
-  - Any task will inflate until all of the available time is spent -- Cyril Northcote Parkinson. E.g. make tasks short, simple and with set deadlines
-  - Users have a propensity to best remember the first and last items in a series -- Serial Position Effect. E.g. put the important things at the beginning or at the end.
-  - Tesler’s Law, also known as The Law of Conservation of Complexity, states that for any system there is a certain amount of complexity which cannot be reduced. E.g. removing features from your product may result in users not being able to achieve some goals.
-  - The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered. E.g. make the most important thing stand out.  Alternatively: If you want to stand out from competition, find a feature which is always the same and make it different.
+  - _The time to acquire a target is a function of the distance to and size of the target_ -- Paul Fitts. E.g. if a function needs to be accessed often and/or quickly, make the button big
+  - _The time it takes to make a decision increases with the number and complexity of choices_ -- William Edmund Hick and Ray Hyman. E.g. only provide choices when a good default does not exist.
+  - _Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know_ -- Jakob Nielsen. E.g. respect the platform’s conventions and interface guidelines.
+  - _People will perceive and interpret ambiguous or complex images as the simplest form possible, because it is the interpretation that requires the least cognitive effort of us_ -- Law of Prägnanz. E.g. do not stuff too much detail into a small space.
+  - _Objects that are near, or proximate to each other, tend to be grouped together_ -- Law of Proximity. E.g. put actions that do similar things together.
+  - _The average person can only keep 7 (plus or minus 2) items in their working memory_ -- George Miller. E.g. reduce the number of things your users have to remember.
+  - _Any task will inflate until all of the available time is spent_ -- Cyril Northcote Parkinson. E.g. make tasks short, simple and with set deadlines
+  - _Users have a propensity to best remember the first and last items in a series_ -- Serial Position Effect. E.g. put the important things at the beginning or at the end.
+  - _Tesler’s Law, also known as The Law of Conservation of Complexity, states that for any system there is a certain amount of complexity which cannot be reduced._ E.g. removing features from your product may result in users not being able to achieve some goals.
+  - _The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered._ E.g. make the most important thing stand out.  Alternatively: If you want to stand out from competition, find a feature which is always the same and make it different.
 
+## Classic
 
 The following is snippets of useful information (condensed from articles similar to the above which didn't make the cut):
 
