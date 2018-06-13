@@ -36,6 +36,11 @@ This is a curated list of such articles (soft limit 100):
   - _Users have a propensity to best remember the first and last items in a series_ -- Serial Position Effect. E.g. put the important things at the beginning or at the end.
   - _Tesler’s Law, also known as The Law of Conservation of Complexity, states that for any system there is a certain amount of complexity which cannot be reduced._ E.g. removing features from your product may result in users not being able to achieve some goals.
   - _The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered._ E.g. make the most important thing stand out.  Alternatively: If you want to stand out from competition, find a feature which is always the same and make it different.
+- [https://jamesclear.com/3-stages-of-failure](The 3 Stages of Failure in Life and Work)
+  - Stage 1 is a Failure of Tactics. These are HOW mistakes. They occur when you fail to build robust systems, forget to measure carefully, and get lazy with the details. A Failure of Tactics is a failure to execute on a good plan and a clear vision. Fixing a failure of tactics involves recording your process, measuring your outcomes (the provided example of measuring your progress at the gym hit home), and finally reviewing and adjusting your tactics.
+  - Stage 2 is a Failure of Strategy. These are WHAT mistakes. They occur when you follow a strategy that fails to deliver the results you want. You can know why you do the things you do and you can know how to do the work, but still choose the wrong what to make it happen. Fixing a failure of strategy involves launching it quickly, doing it cheaply and revising it rapidly (startup 101).
+  - Stage 3 is a Failure of Vision. These are WHY mistakes. They occur when you don't set a clear direction for yourself, follow a vision that doesn't fulfill you, or otherwise fail to understand why you do the things you do. Most importantly (and also something that resonated with me personally), fixing a failure of vision involves taking stock of your life, determining your non-negotiable and then navigating criticism!
+  
 
 ## Classic
 
@@ -44,3 +49,5 @@ The following is snippets of useful information (condensed from articles similar
 - Wealth is not finite - creation of wealth is independent of the money supply. If you make a gift for someone using stones arranged in the shape of a heart, you have created something desirable and hence you are the more wealthier for it.
 - "A good scientist, in other words, does not merely ignore conventional wisdom, but makes a special effort to break it. Scientists go looking for trouble. This should be the m.o. of any scholar, but scientists seem much more willing to look under rocks." - Paul Graham
 - [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying), use a log infrastructure like Apache kafka for distributed data consistency - a bit enterprise heavy but some neat insights.
+
+
