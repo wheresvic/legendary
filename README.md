@@ -59,7 +59,7 @@ This is a curated list of such articles (soft limit 100):
   
     1. _The Von Restorff effect, also known as The Isolation Effect, predicts that when multiple similar objects are present, the one that differs from the rest is most likely to be remembered._ E.g. make the most important thing stand out.  Alternatively: If you want to stand out from competition, find a feature which is always the same and make it different.
 
-1. [https://jamesclear.com/3-stages-of-failure](The 3 Stages of Failure in Life and Work)
+1. [The 3 Stages of Failure in Life and Work]( https://jamesclear.com/3-stages-of-failure )
   
     1. Stage 1 is a Failure of Tactics. These are HOW mistakes. They occur when you fail to build robust systems, forget to measure carefully, and get lazy with the details. A Failure of Tactics is a failure to execute on a good plan and a clear vision. Fixing a failure of tactics involves recording your process, measuring your outcomes (the provided example of measuring your progress at the gym hit home), and finally reviewing and adjusting your tactics.
   
