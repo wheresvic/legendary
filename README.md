@@ -78,4 +78,9 @@ The following is snippets of useful information (condensed from articles similar
 
 1. [The Log: What every software engineer should know about real-time data's unifying abstraction](https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying), use a log infrastructure like Apache kafka for distributed data consistency - a bit enterprise heavy but some neat insights.
 
+1. [Event sourcing made simple](https://kickstarter.engineering/event-sourcing-made-simple-4a2625113224), Event sourcing is like git for data. There are generally four components that make a (minimal) Event Sourcing system: 
 
+    1. Events: persisted and immutable.
+    2. Aggregates: represent the current state of the application.
+    3. Calculators: read events and update aggregates accordingly.
+    4. Reactors: _react_ to events as they are created. They trigger side-effects and might create other events in turn.
