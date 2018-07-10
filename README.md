@@ -4,6 +4,8 @@ While there is an inordinate amount of wonderful content to be consumed on the i
 
 This is a curated list of such articles (soft limit 100):
 
+1. [System design - Job Scheduler](https://segment.com/blog/introducing-centrifuge/), A very neat article on design an event processing engine in a high fault environment. Use a write heavy database to segment jobs and a co-ordinating service to execute the jobs. The database itself consists of simple `job` and `job_state_transition` tables.
+
 1. [What is functional programming all about](http://www.lihaoyi.com/post/WhatsFunctionalProgrammingAllAbout.html), The core of Functional Programming is thinking about data-flow rather than control-flow
 
 1. [Web design in 4 minutes](http://jgthms.com/web-design-in-4-minutes/), A very very basic css styling walkthrough!
