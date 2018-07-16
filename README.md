@@ -74,6 +74,8 @@ This is a curated list of such articles (soft limit 100):
 
 The following is snippets of useful information (condensed from articles similar to the above which didn't make the cut):
 
+1. "Concurrency is dealing with inevitable timing-related conflicts, parallelism is avoiding unnecessary conflicts". A concurrent solution to an event handling problem uses a queue to resolve conflicts whereas a parallel solution to a computational problem avoids unnecessary conflicts: [Vending machine vs gifts](http://yosefk.com/img/n/vending-vs-gifts.png), [Parallelism and concurrency need different tools](http://yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html)
+
 1. Wealth is not finite - creation of wealth is independent of the money supply. If you make a gift for someone using stones arranged in the shape of a heart, you have created something desirable and hence you are the more wealthier for it.
 
 1. "A good scientist, in other words, does not merely ignore conventional wisdom, but makes a special effort to break it. Scientists go looking for trouble. This should be the m.o. of any scholar, but scientists seem much more willing to look under rocks." - Paul Graham
