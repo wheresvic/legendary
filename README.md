@@ -4,6 +4,8 @@ While there is an inordinate amount of wonderful content to be consumed on the i
 
 This is a curated list of such articles (soft limit 100):
 
+1. [Technical debt is not a debt, but an unhedged call option](https://erikbern.com/2014/12/30/everything-i-learned-about-technical-debt.html), As long as you acknowledge that you are taking on debt, it may make sense to take it on, e.g. shipping a product earlier with debt laden code will lead to a better ROI with which one could hire more resources to "repay" the debt. Note that this needs to be a very conscious decision with a fixed plan. Also, something to keep in mind - "If it ain't broke, don't fix it".
+
 1. [System design - Job Scheduler](https://segment.com/blog/introducing-centrifuge/), A very neat article on design an event processing engine in a high fault environment. Use a write heavy database to segment jobs and a co-ordinating service to execute the jobs. The database itself consists of simple `job` and `job_state_transition` tables.
 
 1. [What is functional programming all about](http://www.lihaoyi.com/post/WhatsFunctionalProgrammingAllAbout.html), The core of Functional Programming is thinking about data-flow rather than control-flow
