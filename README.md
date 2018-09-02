@@ -76,6 +76,8 @@ This is a curated list of such articles (soft limit 100):
 
 The following is snippets of useful information (condensed from articles similar to the above which didn't make the cut):
 
+1. [The point of microservices](https://erikbern.com/2018/06/04/missing-the-point-about-microservices.html), is being able to deploy and test independently for rapid iteration. The article itself does not cover version management however.
+
 1. [A road to common lisp](http://stevelosh.com/blog/2018/08/a-road-to-common-lisp/), an excellent resource on getting started with lisp - basically get SBCL and a couple of books :)
 
 1. "Concurrency is dealing with inevitable timing-related conflicts, parallelism is avoiding unnecessary conflicts". A concurrent solution to an event handling problem uses a queue to resolve conflicts whereas a parallel solution to a computational problem avoids unnecessary conflicts: [Vending machine vs gifts](http://yosefk.com/img/n/vending-vs-gifts.png), [Parallelism and concurrency need different tools](http://yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html)
