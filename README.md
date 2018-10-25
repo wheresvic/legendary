@@ -95,3 +95,7 @@ The following is snippets of useful information (condensed from articles similar
     2. Aggregates: represent the current state of the application.
     3. Calculators: read events and update aggregates accordingly.
     4. Reactors: _react_ to events as they are created. They trigger side-effects and might create other events in turn.
+
+1. [Stacked diffs vs. pull requests](https://jg.gg/2018/09/29/stacked-diffs-versus-pull-requests/), The basic idea of stacked diffs is that you have a local checkout of the repository which you can mangle to your heart's content. The only thing that the world needs to care about is what you want to push out for review. This means you decide what view of your local checkout the reviewers see. You present something that can be "landed" on top of master. 
+
+    The typical workflow is to work right on top of master, committing to master as you go. For each of the commits, you then use the Phabricator command line tool to create a "Diff" which is the Phabricator equivalent of a Pull Request. Unlike Pull Requests, Diffs are usually based on exactly one commit and instead of pushing updates as additional commits, you update the single commit in place and then tell Phabricator to update the remote view. When a Diff gets reviewed and approaved, you can "land" it onto remote master. Your local copy and master don't have to be in perfect sync in order to do this. You can think of this as the remote master cherry-picking the specific commit from your git history.
