@@ -73,6 +73,8 @@ This is a curated list of such articles (soft limit 100):
 
 1. [The absolute minimum every software developer must know about unicode and character sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/), long story short there is no such thing as plain text. Unicode is a standard that defines characters as code points. Initially, there were less than 65,536 characters so it was possible to store each character using 2 bytes (16 bits). However, once the standard grew, there evolved multiple character encoding schemes: UTF-8 (where every code point from 0-127 is stored in a single byte. Only code points 128 and above are stored using 2, 3, in fact, up to 6 bytes), UTF-16, UTF-7, UTF-32, Windows-1252 (the Windows 9x standard for Western European languages), ISO-8859-1, aka Latin-1 (also useful for any Western European language). Note that the UTF encodings can also potentially have a Byte Order Mark (BOM) at the start of the string which indicates their endianess. Finally, it really only makes sense to use UTF-8 as it is the most efficient with higest compatibility :)
 
+1. [Advanced web-security topics](https://blog.georgovassilis.com/2016/04/16/advanced-web-security-topics/)
+
 ## Classic
 
 The following is snippets of useful information (condensed from articles similar to the above which didn't make the cut):
