@@ -79,6 +79,19 @@ This is a curated list of such articles (soft limit 100):
 
 The following is snippets of useful information (condensed from articles similar to the above which didn't make the cut):
 
+1. [DevOps and SQL databases](https://queue.acm.org/detail.cfm?id=3300018), using an SQL database is no excuse for not following good DevOps practices - either manage schema versions in code with auto upgrade and rollback or decouple code from the database so that schema changes can be made independent of code deployments. Also interesting to note the 5 phases of a live schema change:
+
+    1. The running code reads and writes the old schema, selecting just the fields that it needs from the table or view. This is the original state.
+
+    2. Expand: The schema is modified by adding any new fields but not removing any old ones. No code changes are made. If a rollback is needed, it's painless because the new fields are not being used.
+
+    3. Code is modified to use the new schema fields and pushed into production. If a rollback is needed, it just reverts to phase 2. At this time any data conversion can be done while the system is live.
+
+    4. Contract: Code that references the old, now unused, fields is removed and pushed into production. If a rollback is needed, it just reverts to phase 3.
+
+    5. Old, now unused, fields are removed from the schema. In the unlikely event that a rollback is needed at this point, the database would simply revert to phase 4.
+
+
 1. [The point of microservices](https://erikbern.com/2018/06/04/missing-the-point-about-microservices.html), is being able to deploy and test independently for rapid iteration. The article itself does not cover version management however.
 
 1. [A road to common lisp](http://stevelosh.com/blog/2018/08/a-road-to-common-lisp/), an excellent resource on getting started with lisp - basically get SBCL and a couple of books :)
