@@ -75,9 +75,24 @@ This is a curated list of such articles (soft limit 100):
 
 1. [The absolute minimum every software developer must know about unicode and character sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/), long story short there is no such thing as plain text. Unicode is a standard that defines characters as code points. Initially, there were less than 65,536 characters so it was possible to store each character using 2 bytes (16 bits). However, once the standard grew, there evolved multiple character encoding schemes: UTF-8 (where every code point from 0-127 is stored in a single byte. Only code points 128 and above are stored using 2, 3, in fact, up to 6 bytes), UTF-16, UTF-7, UTF-32, Windows-1252 (the Windows 9x standard for Western European languages), ISO-8859-1, aka Latin-1 (also useful for any Western European language). Note that the UTF encodings can also potentially have a Byte Order Mark (BOM) at the start of the string which indicates their endianess. Finally, it really only makes sense to use UTF-8 as it is the most efficient with higest compatibility :)
 
+1. [Advanced web-security topics](https://blog.georgovassilis.com/2016/04/16/advanced-web-security-topics/)
+
 ## Classic
 
 The following is snippets of useful information (condensed from articles similar to the above which didn't make the cut):
+
+1. [DevOps and SQL databases](https://queue.acm.org/detail.cfm?id=3300018), using an SQL database is no excuse for not following good DevOps practices - either manage schema versions in code with auto upgrade and rollback or decouple code from the database so that schema changes can be made independent of code deployments. Also interesting to note the 5 phases of a live schema change:
+
+    1. The running code reads and writes the old schema, selecting just the fields that it needs from the table or view. This is the original state.
+
+    2. Expand: The schema is modified by adding any new fields but not removing any old ones. No code changes are made. If a rollback is needed, it's painless because the new fields are not being used.
+
+    3. Code is modified to use the new schema fields and pushed into production. If a rollback is needed, it just reverts to phase 2. At this time any data conversion can be done while the system is live.
+
+    4. Contract: Code that references the old, now unused, fields is removed and pushed into production. If a rollback is needed, it just reverts to phase 3.
+
+    5. Old, now unused, fields are removed from the schema. In the unlikely event that a rollback is needed at this point, the database would simply revert to phase 4.
+
 
 1. [The point of microservices](https://erikbern.com/2018/06/04/missing-the-point-about-microservices.html), is being able to deploy and test independently for rapid iteration. The article itself does not cover version management however.
 
