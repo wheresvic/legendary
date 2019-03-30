@@ -81,6 +81,8 @@ This is a curated list of such articles (soft limit 100):
 
 The following is snippets of useful information (condensed from articles similar to the above which didn't make the cut):
 
+1. [Simpson's Paradox](https://www.forrestthewoods.com/blog/my_favorite_paradox/), Trends which appear in groups of data may disappear or reverse when the groups are combined. 
+
 1. [DevOps and SQL databases](https://queue.acm.org/detail.cfm?id=3300018), using an SQL database is no excuse for not following good DevOps practices - either manage schema versions in code with auto upgrade and rollback or decouple code from the database so that schema changes can be made independent of code deployments. Also interesting to note the 5 phases of a live schema change:
 
     1. The running code reads and writes the old schema, selecting just the fields that it needs from the table or view. This is the original state.
