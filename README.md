@@ -4,6 +4,8 @@ While there is an inordinate amount of wonderful content to be consumed on the i
 
 This is a curated list of such articles (soft limit 100):
 
+1. [Operating a high-scale distributed system](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/). A great overview of experience gained in operating a distributed sytem. Covers monitoring, on-call and anomaly detection, outages, postmortems, failover drills, SLAs. Includes tips on blameless postmortems and asking questions to dig down to the root cause of the issue, e.g. a bug appeared in the code because it could not be unit tested due to the fact that the system does not support test accounts. Also, a very important point is never try to fix code in production - always rollback and go through the normal review process.
+
 1. [A primer on how concurrency safety is handled in different languages](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/fearlessconcurrencyhowclojurerustponyerlanganddartletyouachievethat). A look at functional languages and immutability, Rust's borrow checker, behaviours in Pony and the actor model used in Dart/Erlang.
 
 1. [Technical debt is not a debt, but an unhedged call option](https://erikbern.com/2014/12/30/everything-i-learned-about-technical-debt.html), As long as you acknowledge that you are taking on debt, it may make sense to take it on, e.g. shipping a product earlier with debt laden code will lead to a better ROI with which one could hire more resources to "repay" the debt. Note that this needs to be a very conscious decision with a fixed plan. Also, something to keep in mind - "If it ain't broke, don't fix it".
