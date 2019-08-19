@@ -4,6 +4,18 @@ While there is an inordinate amount of wonderful content to be consumed on the i
 
 This is a curated list of such articles (soft limit 100):
 
+1. [How to build good software](https://www.csc.gov.sg/articles/how-to-build-good-software). An amazing article that identifies root causes of poorly produced software and illustrates some key steps in getting it right. Finally, the article also expounds on 10x engineers and how they simple make better decisions and automate things which enable other members along with freeing up mental resources for higher order problems.
+
+    On software issues:
+    - Reusing good software is easy; it is what allows you to build good things quickly;
+    - Software is limited not by the amount of resources put into building it, but by how complex it can get before it breaks down; and
+    - The main value in software is not the code produced, but the knowledge accumulated by the people who produced it.
+    
+    On getting it done right:
+    - Start as simple as possible;
+    - Seek out problems and iterate; and
+    - Hire the best engineers you can.
+    
 1. [Operating a high-scale distributed system](https://blog.pragmaticengineer.com/operating-a-high-scale-distributed-system/). A great overview of experience gained in operating a distributed sytem. Covers monitoring, on-call and anomaly detection, outages, postmortems, failover drills, SLAs. Includes tips on blameless postmortems and asking questions to dig down to the root cause of the issue, e.g. a bug appeared in the code because it could not be unit tested due to the fact that the system does not support test accounts. Also, a very important point is never try to fix code in production - always rollback and go through the normal review process.
 
 1. [A primer on how concurrency safety is handled in different languages](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/fearlessconcurrencyhowclojurerustponyerlanganddartletyouachievethat). A look at functional languages and immutability, Rust's borrow checker, behaviours in Pony and the actor model used in Dart/Erlang.
