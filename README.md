@@ -6,9 +6,9 @@ This is a curated list of such articles (soft limit 100):
 
 1. [3 tribes of Computer Science](https://josephg.com/blog/3-tribes/). An great article that puts programmers into 3 camps:
   
-  - Programmers who think in terms of mathematics and keeping code short and beautiful. Examples include language wonks and functional programming champions.
-  - Programmers who write code as close to the machine as possible for maximum efficiency. Examples include hardware hackers and non-gc language proponents.
-  - Programmers who just want to create solutions for others to use. This includes the majority of the profession.
+    - Programmers who think in terms of mathematics and keeping code short and beautiful. Examples include language wonks and functional programming champions.
+    - Programmers who write code as close to the machine as possible for maximum efficiency. Examples include hardware hackers and non-gc language proponents.
+    - Programmers who just want to create solutions for others to use. This includes the majority of the profession.
 
 1. [How to build good software](https://www.csc.gov.sg/articles/how-to-build-good-software). An amazing article that identifies root causes of poorly produced software and illustrates some key steps in getting it right. Finally, the article also expounds on 10x engineers and how they simple make better decisions and automate things which enable other members along with freeing up mental resources for higher order problems.
 
